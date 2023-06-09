@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1964100991755764}
+  m_IsPrefabParent: 1
+--- !u!1 &1964100991755764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4066143477574176}
+  - component: {fileID: 114825131056416476}
+  m_Layer: 0
+  m_Name: Modular_Desk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4066143477574176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964100991755764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114825131056416476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964100991755764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c98cf8925938e9449d382314a912b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabList:
+  - {fileID: 1218739910906278, guid: b2296832914c3a64388a6a6bcc087cfa, type: 2}
+  - {fileID: 1083847472870056, guid: 69af1bc9eff16054db6a5d7167a05e11, type: 2}
+  - {fileID: 1844023041177360, guid: c5bebd39efbbd29429a9fed50decf9f4, type: 2}
+  - {fileID: 1931634961301442, guid: 86f8b2766f1802a4fb6d2d7c07918532, type: 2}
+  - {fileID: 1699608736744412, guid: 0e0818912591d844fadc552d81db680e, type: 2}
+  - {fileID: 1194798390136786, guid: d16a8e8490221a043ac2dfe787d4de7d, type: 2}
+  - {fileID: 1513906833184634, guid: bfb55dd8b1f91bc4aa050dbe90d139e6, type: 2}
+  - {fileID: 1598363853338850, guid: 6ade0bba6b44a2147b7d1c818a7246c7, type: 2}
+  - {fileID: 1377945698041394, guid: b09d4bc3bb228724ebefe66746faf1bb, type: 2}
+  - {fileID: 1771539637176560, guid: ce72140f7ce70da4d836781e0cb235e0, type: 2}
