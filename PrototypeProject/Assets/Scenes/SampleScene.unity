@@ -17374,6 +17374,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.032, y: 0.032, z: 0.016}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &377192402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1843051303443560, guid: 2e1fdfc793b10824491fa04946405f18, type: 3}
+  m_PrefabInstance: {fileID: 329016911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!21 &380417414
 Material:
   serializedVersion: 6
@@ -85526,6 +85531,7 @@ GameObject:
   - component: {fileID: 2022555395}
   - component: {fileID: 2022555394}
   - component: {fileID: 2022555393}
+  - component: {fileID: 2022555400}
   m_Layer: 0
   m_Name: PressableButtonHoloLens2 (21)
   m_TagString: Untagged
@@ -86007,6 +86013,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.032, y: 0.032, z: 0.016}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2022555400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022555391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def3e710ee88fef44971937a8762b64f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalObject: {fileID: 377192402}
+  MainMenu: {fileID: 1132213655}
 --- !u!1 &2022650720
 GameObject:
   m_ObjectHideFlags: 0
