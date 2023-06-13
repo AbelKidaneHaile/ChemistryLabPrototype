@@ -14,7 +14,7 @@ public class CollisionHandler : MonoBehaviour
         if (collision.gameObject == objectToUnspawn)
         {
             // Unspawn the object
-            Destroy(objectToUnspawn);
+            //Destroy(objectToUnspawn);
         }
     }
 }
