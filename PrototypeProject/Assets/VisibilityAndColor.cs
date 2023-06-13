@@ -10,17 +10,25 @@ public class VisibilityAndColor : MonoBehaviour
     {
         string buttonName = gameObject.name;
 
-        if (buttonName == "Button1")
+        if (buttonName == "H2SO4Button")
         {
             // Change the color of the target Renderer for Button 1
-            targetRenderer.material.color = Color.red;
+            GlassLiquid.material.color = Color.red;
         }
-        else if (buttonName == "Button2")
+        else if (buttonName == "H2CrO4Button")
         {
             // Change the color of the target Renderer for Button 2
-            targetRenderer.material.color = Color.blue;
+            GlassLiquid.material.color = Color.red;
         }
-        // Add more conditions for other buttons
+        else if(buttonName == "NaOHButton")
+        {
+            GlassLiquid.material.color = Color.white;
+        }
+        else if (buttonName == "CuSO4Button")
+        {
+            GlassLiquid.material.color = Color.blue;
+        }
+        
     }
 }
 
